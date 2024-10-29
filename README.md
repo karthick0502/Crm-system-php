@@ -35,3 +35,39 @@ This will create a folder named Crm-system-php under the htdocs directory. Make 
 
 5. **Run the Application**
 - Open your web browser and go to http://localhost/Crm-system-php/customers.php (adjust the URL based on your folder name and file structure).
+
+
+## How this application works?
+
+This CRM (Customer Relationship Management) application allows users to manage customer information efficiently. Here’s a breakdown of how the application works:
+
+1. **User Registration**
+   - The application begins with a registration page where new users can create an account.
+   - Users need to provide necessary details like username, email, and password to register successfully.
+   - Once registered, the user details are stored in the database for future access.
+
+2. **User Login**
+   - After registration, users can log in to the application using their registered credentials (email and password).
+   - Successful login redirects the user to the main dashboard of the application.
+
+3. **Dashboard**
+   - Upon logging in, users are presented with a dashboard that provides options to manage their customers.
+   - The dashboard includes a button labeled "Manage Customers" that navigates users to the customer management section.
+
+4. **Manage Customers**
+   - In the customer management section, users can view a list of all their customers stored in the database.
+   - Users can add new customers by filling in details such as name, email, phone, and address in the provided form. This data is then submitted to the database.
+   - Each customer entry in the list includes an option to delete the customer. When clicked, a confirmation popup appears to confirm the deletion.
+   - If confirmed, the selected customer is removed from the database.
+
+5. **User Logout**
+   - Users can log out of their account from the dashboard. Logging out ends the current session and returns the user to the login page.
+   - This ensures that user data is secure and prevents unauthorized access.
+
+## Application Flow
+- **Registration → Login → Dashboard → Manage Customers (Add/Delete) → Logout**
+
+This flow ensures that users can efficiently manage their customer data while maintaining a secure and user-friendly experience.
+
+## Final Remarks
+This application is designed to be straightforward and easy to navigate, allowing users to focus on managing their customer relationships without unnecessary complexity.
